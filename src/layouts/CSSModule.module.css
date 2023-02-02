@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+@media (max-width:639px) {
+    .button_set {
+        width: 300px;
+    }
+}
+@media (min-width:640px) {
+    .button_set {
+        width: 400px;
+    }
+}
+
+@media (max-width:1000px) {
+    .ChatList {
+        width: 0% !important;
+        height : 0% !important;
+    }
+}
+
+@media (max-width:1000px) {
+    .ChatLoby{
+        width: 0% !important;
+        height: 0% !important;
+    }
+}
+
+@media (max-width:1000px) {
+    .ChatContent {
+        position: relative;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .chatlayout {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:1000px) {
+    .ChatLobyList {
+        position: relative;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+}
+
+.fullScreen {
+    position: absolute;
+    background-color: rgba(153, 153, 153, 0.2);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.menuScreen {
+    background-color: #FFFFFF;
+}
