@@ -14,12 +14,12 @@
 
 # Atomic Design
 
-- Atom로 쪼개는것은 유지관리함에있어 너무많은 depth를 소모하므로 5가지 단계중 Organism / Template / pages 를 사용함
-- 3단계의 구성은 Organism (컴포넌트유기체) / Template (end-point연결/컴포넌트유기체의집합) / pages (화면) 으로 함
+- Atom단위로 쪼개는것은 많은 depth를 가짐으로 유지관리함에있어 복잡도가 증가 한다고판단하여 5가지 단계중 Organism / Template / pages 를 사용함
+- 3단계의 구성은 [Organism (컴포넌트유기체) / Template (end-point연결/컴포넌트유기체의집합) / Pages (화면)] 으로 함
 
-# Api관리
+# End-Point관리
 
-- Service 디렉토리안에 한곳에서 모든 Api를 관리
+- Service 디렉토리에서 모든 End-Point를 관리
 
 ## Redux-toolkit
 
