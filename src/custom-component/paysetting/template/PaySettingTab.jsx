@@ -1,8 +1,8 @@
 import { Box, Tab, Tabs } from "@mui/material";
 import React from "react";
 import HorizonalBar from "../../home/organism/HorizonalBar";
-import PayDetail from "./PayDetail";
-import PayMethod from "./PayMethod";
+import PayDetail from "../organism/PayDetail";
+import PayMethod from "../organism/PayMethod";
 
 const PaySettingTab = () => {
     const [value, setValue] = React.useState('1');

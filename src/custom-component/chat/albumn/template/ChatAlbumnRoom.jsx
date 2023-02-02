@@ -4,8 +4,8 @@ import { useSelector } from "react-redux";
 import { useGetChatAlbumnListQuery } from "src/api/services/chatAlbumnList";
 import { selectMsgInfo } from "src/redux/msgSlice";
 import { selectUser } from "src/redux/userSlice";
-import ChatAlbumn from "./ChatAlbumn";
-import Header from "./Header";
+import ChatAlbumn from "../organism/ChatAlbumn";
+import Header from "../organism/Header";
 
 const ChatAlbumnRoom = ({target}) => {
     const user = useSelector(selectUser);

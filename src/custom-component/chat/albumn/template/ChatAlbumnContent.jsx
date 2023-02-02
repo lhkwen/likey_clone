@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { selectTarget } from "src/redux/targetSlice";
-import ChatAlbumnRoom from "../organism/ChatAlbumnRoom";
+import ChatAlbumnRoom from "./ChatAlbumnRoom";
 
 
 const ChatAlbumnContent = () => {

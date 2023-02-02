@@ -2,9 +2,9 @@ import { Avatar, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useEffect, useMemo, useState } from "react";
 import { useGetAlarmQuery } from "src/api/services/alarm";
-import AlarmCase from "./AlarmCase";
-import AlarmCheck from "./AlarmCheck";
-import AlarmTime from "./AlarmTime";
+import AlarmCase from "../organism/AlarmCase";
+import AlarmCheck from "../organism/AlarmCheck";
+import AlarmTime from "../organism/AlarmTime";
 
 const AlarmCard = () => {
 
