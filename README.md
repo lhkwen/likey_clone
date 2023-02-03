@@ -68,8 +68,7 @@
 ## Next.js
 
 - next.js version13.1.2
-- SEO(Search Engine Optimization) 검색엔진 최적화를 사용하기위해 사용
-  웹페이지를 검색결과 상위에 표시시켜 유입을 늘리기위함 (크리에이터홈)
+- 동적URL을 사용하고자위함 [index].jsx
 
 ## MUi
 

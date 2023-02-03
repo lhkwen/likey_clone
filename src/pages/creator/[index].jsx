@@ -1,12 +1,7 @@
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
-import { useSelector } from "react-redux";
-import { useGetCreatorQuery,creatorApi } from "src/api/services/creator";
 import CreatorHeader from "src/custom-component/creator/template/CreatorHeader";
 import HomeLayout from "src/layouts/content/HomeLayout";
-import { selectPost } from "src/redux/postSlice";
-import { selectUser } from "src/redux/userSlice";
-import { GetServerSideProps } from 'next'
 
 function Creator ({data}) {
     const navigate = useRouter();
@@ -37,5 +32,6 @@ export const getServerSideProps = async (props) => {
     
     const res = await fetch(`https://dev-api.fancoo.com/v1/profiles/${props.params.index}/by/profileid`)
     const data= await res.json();
+    console.log(data);
     return { props: { data } }
 }
