@@ -22,4 +22,15 @@ function Creator () {
     )
 }
 
+export async function getStaticProps(props) {
+    const navigate = useRouter();
+    const {data, isSuccess} = useGetCreatorQuery({
+        profile_id: navigate.query.index
+    });
+
+    return(
+        data
+    )
+}
+
 export default Creator;
