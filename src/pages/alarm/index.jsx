@@ -1,5 +1,5 @@
 import React from "react";
-import AlarmCard from "src/custom-component/alarm/template/AlarmCard";
+import AlarmCard from "src/custom-component/alarm/organism/AlarmCard";
 import Header from "src/custom-component/alarm/organism/Header";
 
 import withAuth from "src/hooks/withAuth";

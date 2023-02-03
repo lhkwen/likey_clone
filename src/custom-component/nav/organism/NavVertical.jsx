@@ -48,7 +48,7 @@ export default function NavVertical({open, setOpen}) {
                 {user?.user ? ( 
                     <Avatar onClick={openMenu} sx={{marginLeft:'20px' ,cursor:'pointer', marginTop:'15px', marginBottom: '15px'}} alt="" src={user.user.profileimg_url} />
                 ) : (
-                    <Button onClick={openMenu}>L</Button>
+                    <Button>L</Button>
                 )}
                 
                 <ListItemLink to="/home" primary="홈" icon={<HomeIcon />}/>

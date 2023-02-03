@@ -14,12 +14,12 @@
 
 # Atomic Design
 
-- Atom단위로 쪼개는것은 많은 depth를 가짐으로 유지관리함에있어 복잡도가 증가 한다고판단하여 5가지 단계중 Organism / Template / pages 를 사용함
-- 3단계의 구성은 [Organism (컴포넌트유기체) / Template (end-point연결/컴포넌트유기체의집합) / Pages (화면)] 으로 함
+- Atomic Design 5가지 단계중 Organism / Template / pages 를 사용함
+- 3단계의 구성은 Organism (컴포넌트유기체) / Template (end-point연결/컴포넌트유기체의집합) / pages (화면) 으로 함
 
-# End-Point관리
+# Api관리
 
-- Service 디렉토리에서 모든 End-Point를 관리
+- Service 디렉토리안에 한곳에서 모든 Api를 관리
 
 ## Redux-toolkit
 
@@ -68,7 +68,8 @@
 ## Next.js
 
 - next.js version13.1.2
-- 동적URL을 사용하고자위함 [index].jsx
+- SEO(Search Engine Optimization) 검색엔진 최적화를 사용하기위해 사용
+  웹페이지를 검색결과 상위에 표시시켜 유입을 늘리기위함 (크리에이터홈)
 
 ## MUi
 

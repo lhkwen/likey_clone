@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "src/custom-component/paysetting/organism/Header";
-import PaySettingTab from "src/custom-component/paysetting/template/PaySettingTab";
+import PaySettingTab from "src/custom-component/paysetting/organism/PaySettingTab";
 import withAuth from "src/hooks/withAuth";
 import HomeLayout from "src/layouts/content/HomeLayout";
 

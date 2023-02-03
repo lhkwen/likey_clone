@@ -56,5 +56,4 @@ const CardContent = ({data}) => {
     )
 }
 
-
 export default CardContent;
